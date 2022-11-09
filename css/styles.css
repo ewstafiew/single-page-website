@@ -230,9 +230,9 @@ top: 70px;
 .table {
 	position: absolute;
 width: 529px;
-height: 315px;
+height: 190px;
 left: 456px;
-top: 1106px;
+top: 1090px;
 background: #E5E5E5;
 border-radius: 3px;
 border: 3px black;
@@ -340,13 +340,64 @@ border: 3px black;
 	line-height: 22px;
 	color: #000000;
 }
+
+.input {
+	position: absolute;
+width: 529px;
+height: 100px;
+left: 456px;
+top: 1320px;
+background: #E5E5E5;
+border-radius: 3px;
+border: 3px black;
+}
+.textarea {
+	width: 350px;
+	height: 60px;
+	resize: none;
+	margin-top: 17px;
+	margin-left: 17px;
+	border-radius: 8px;
+	background-color: #eeeeeee5;
+	border-color: #EFEFEF;
+	font-size: 16px;
+}
+.bu {
+	margin-top: -70px;
+	margin-left: 400px;
+	color: #EFEFEF;
+	border-radius: 10px;
+}
+.bu2 {
+	border-color: #EFEFEF;
+	border-radius: 7px;
+	padding: 8px 10px;
+	color: #726f6fcc;
+	/* outline: none; */
+	/* border: 3px; */
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.che {
+	position: absolute;
+	width: 99px;
+	height:11px;
+	top: 44px;
+	left: 400px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #726f6fcc;
+}
+
 /* **********************Блок Футер: Контакты обо мне  **********************" */
 .footer {
 	position: absolute;
 	width: 614px;
-	height: 94px;
+	height: 120px;
 	left: 413px;
-	top: 1495px;
+	top: 1499px;
 	color: #000000;
 	border-top: 3px solid #000000;
 }
@@ -393,4 +444,10 @@ border: 3px black;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 17px;
+}
+.agit{
+	color: #000;
+}
+.atelegram {
+	color: #000;
 }
