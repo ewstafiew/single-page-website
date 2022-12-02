@@ -11,19 +11,19 @@
   </head>
   <body>
     <div class="mainPage">
-        <div class="hed1" id = "block1"> 
+        <div class="hed1"> 
           <div class="ph">
-            <img src="images/MyPhoto.jpeg" alt="photo" class="photo1" id="myphoto">
+            <img src="images/MyPhoto.jpeg" alt="photo" class="photo1">
           </div>
           <div class="name">
-            <h1 class = "name1">Евстафьев Игорь</h1>
+            <h1 id="position" class = "name1">Евстафьев Игорь</h1>
           </div>
           <div class="qa">
             <h2 class="qa1">QA инженер</h2>
           </div>
         </div>
       <main>
-        <div class="facts" id="block2">
+        <div id="blockFacts" class="facts">
           <div class="factsOfMe">
             <p class="factsOfMeH1">Факты обо мне</p>
           </div>
@@ -37,7 +37,7 @@
             </ul>
           </div>         
         </div>
-        <div class="skills" id="block3">
+        <div class="skills">
           <p class="skillsP">Я умею работать с:</p>
           <div class="ph2">
             <img src="images/Postman.png" alt="photo" class="photo2">
@@ -58,7 +58,7 @@
             <img src="images/asana.png" alt="photo" class="photo7">
           </div>
         </div>
-        <div class="certificates" id="block4">
+        <div class="certificates">
           <p class="MySertificates">Мой сертификат</p>
           <p class="video">Видео с ютуба</p>
         </div>
@@ -66,7 +66,7 @@
         <div class="photoCer2"> 
           <iframe width="289" height="191" src="https://www.youtube.com/embed/baY3SaIhfl0" title="Devs watching QA test the product" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="workExperience">
+        <div id="blockExperience" class="workExperience">
           <p class="workExperienceTitle">Опыт работы в ИТ</p>
         </div>
         <div class="table">
@@ -83,15 +83,17 @@
           <div class="horisontalLine1"></div>          
         </div>
         <div class="input">
-          <textarea class="textarea"  cols="30" placeholder="      Напиши своё пожелание" name = "textareafield"></textarea>        
+          <textarea id="field" type="text" name = "textareafield" class="textarea"  cols="30" placeholder="      Напиши своё пожелание"></textarea>        
           <form class="bu1">
-            <p class="bu"><input type="button" value=" Отправить " class="bu2" name="submitbutton"></p>
+            <p name="submitbutton" class="bu">
+              <input type="button" value=" Отправить " class="bu2">
+            </p>
             <p class="che"><input type="checkbox" value=" Отправить " class="che1" checked> Анонимно</p>
           </form>
         </div>
         <div class="footer">
           <p class="ContactMe">Связаться со мной</p>
-          <p class="telephone">Телефон: +7 999 999-99-97</p>
+          <p id="phone" class="telephone">Телефон: +7 999 999-99-97</p>
           <p class="telegram">
               Telegram:<a href="https://t.me/Ew_Igor" class="atelegram">Ew_Igor</a>
           </p>
