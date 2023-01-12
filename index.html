@@ -13,7 +13,7 @@
     <div class="mainPage">
         <div class="hed1"> 
           <div class="ph">
-            <img src="images/MyPhoto.jpeg" alt="photo" class="photo1">
+            <img data-test-id="image__photo" src="images/MyPhoto.jpeg" alt="photo" class="photo1">
           </div>
           <div class="name">
             <h1 id="position" class = "name1">Евстафьев Игорь</h1>
@@ -38,7 +38,7 @@
           </div>         
         </div>
         <div class="skills">
-          <p class="skillsP">Я умею работать с:</p>
+          <p data-test-id="text__can-work" class="skillsP">Я умею работать с:</p>
           <div class="ph2">
             <img src="images/Postman.png" alt="photo" class="photo2">
           </div>
@@ -86,16 +86,16 @@
           <textarea id="field" type="text" name = "textareafield" class="textarea"  cols="30" placeholder="      Напиши своё пожелание"></textarea>        
           <form class="bu1">
             <p name="submitbutton" class="bu">
-              <input type="button" value=" Отправить " class="bu2">
+              <input  data-test-id="button__send" type="button" value=" Отправить " class="bu2">
             </p>
-            <p class="che"><input type="checkbox" value=" Отправить " class="che1" checked> Анонимно</p>
+            <p class="che"><input data-test-id="checkbox__anonymous" type="checkbox" value=" Отправить " class="che1" checked> Анонимно</p>
           </form>
         </div>
         <div class="footer">
           <p class="ContactMe">Связаться со мной</p>
           <p id="phone" class="telephone">Телефон: +7 999 999-99-97</p>
-          <p class="telegram">
-              Telegram:<a href="https://t.me/Ew_Igor" class="atelegram">Ew_Igor</a>
+          <p class="telegram"> 
+              Telegram:<a data-test-id="link__telegram" href="https://t.me/Ew_Igor" class="atelegram">Ew_Igor</a>
           </p>
           <p class="git">
             GitHub:<a href="https://github.com/ewstafiew" class="agit">Igor Ewstafiew</a>
