@@ -1,3 +1,5 @@
+![browser_jXRvSag4GD](https://user-images.githubusercontent.com/93986140/215357029-42ebce50-52f9-4e2d-9f2d-61f49a340195.png)
+
 Задание 4. Вёрстка
 
 Инструкция
@@ -8,6 +10,3 @@ https://www.figma.com/file/f3I3QM1daIBLuRMqGtDXFs/SiteExample?node-id=0%3A1
 Замени все данные на свои, чтобы получился твой личный сайт-визитка. Можешь менять цвета, но соблюдай структуру макета.
 
 Выложи сайт в репозиторий на гитхаб. В ответ приложить ссылку на репозиторий.
-
-Картинка:
-https://funik.ru/wp-content/uploads/2018/10/1b23ac4e777c9088d774.jpg
